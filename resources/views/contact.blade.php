@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gia Linh SBH</title>
+    <title>Adelaide</title>
 
     <!-- Favicon -->
     <link rel="icon" href="{{ asset('faviconhoa.ico') }}" type="image/x-icon">
@@ -34,7 +34,7 @@
     </div>
 
     <!-- Offcanvas Menu Section Begin -->
-    {{-- <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-overlay"></div>
     <div class="canvas-open">
         <i class="icon_menu"></i>
     </div>
@@ -83,10 +83,10 @@
             <a href="#"><i class="fa fa-instagram"></i></a>
         </div>
         <ul class="top-widget">
-            <li><i class="fa fa-phone"></i> (12) 345 67890</li>
-            <li><i class="fa fa-envelope"></i> info.colorlib@gmail.com</li>
+            <li><i class="fa fa-phone"></i> 0123456789 </li>
+            <li><i class="fa fa-envelope"></i> adelaide@gmail.com</li>
         </ul>
-    </div> --}}
+    </div>
     <!-- Offcanvas Menu Section End -->
 
     <!-- Header Section Begin -->
@@ -96,8 +96,8 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <ul class="tn-left">
-                            <li><i class="fa fa-phone"></i> 0943334824 </li>
-                            <li><i class="fa fa-envelope"></i> ngglinh02@gmail.com </li>
+                            <li><i class="fa fa-phone"></i> 0123456789 </li>
+                            <li><i class="fa fa-envelope"></i> adelaide@gmail.com </li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
@@ -129,19 +129,23 @@
                 <div class="row">
                     <div class="col-lg-2" style="margin-top: 20px;">
                         <a href="/" style="font-family:monospace;">
-                            <h4 class="text-black mb-3" style="font-size: 40px;">Gia Linh</h4>
+                            <h4 class="text-black mb-3" style="font-size: 40px;">Adelaide</h4>
                         </a>
                     </div>
-                    
+
                     <div class="col-lg-10">
                         <div class="nav-menu">
-                            <nav class="mainmenu">  
-                                    <li class="nav-item nav-link {{ Request::is('/') ? 'active' : '' }}"><a href="/">Home</a></li>
-                                    <li class="nav-item nav-link {{ Request::is('/hotel') ? 'active' : '' }}"><a href="/hotel">Hotel</a></li>
-                                    <li class="nav-item nav-link {{ Request::is('/review') ? 'active' : '' }}"><a href="/review">Review</a>
-                                    <li class="nav-item nav-link {{ Request::is('/service') ? 'active' : '' }}"><a href="/service">Service</a>
+                            <nav class="mainmenu">
+                                <li class="nav-item nav-link {{ Request::is('/') ? 'active' : '' }}"><a
+                                        href="/">Home</a></li>
+                                <li class="nav-item nav-link {{ Request::is('/hotel') ? 'active' : '' }}"><a
+                                        href="/hotel">Hotel</a></li>
+                                {{-- <li class="nav-item nav-link {{ Request::is('/review') ? 'active' : '' }}"><a href="/review">Review</a> --}}
+                                <li class="nav-item nav-link {{ Request::is('/service') ? 'active' : '' }}"><a
+                                        href="/service">Service</a>
 
-                                    <li class="nav-item nav-link {{ Request::is('/contact') ? 'active' : '' }}"><a href="/contact">Contact</a></li>
+                                <li class="nav-item nav-link {{ Request::is('/contact') ? 'active' : '' }}"><a
+                                        href="/contact">Contact</a></li>
                             </nav>
                             <div class="nav-right search-switch">
                                 <i class="icon_search"></i>
@@ -166,15 +170,15 @@
                             <tbody>
                                 <tr>
                                     <td class="c-o">Address:</td>
-                                    <td>999 Đại Lộ Hòa Bình - Cần Thơ</td>
+                                    <td>New York</td>
                                 </tr>
                                 <tr>
                                     <td class="c-o">Phone:</td>
-                                    <td>0999 68 68 68</td>
+                                    <td>0123456789</td>
                                 </tr>
                                 <tr>
                                     <td class="c-o">Email:</td>
-                                    <td>searchbookinghotel@gmail.com</td>
+                                    <td>adelaide@gmail.com</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -199,9 +203,11 @@
             </div>
             <div class="map">
                 <iframe
-                src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1005499.6739559979!2d104.34902184495179!3d10.120919264908531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0629f927382cd%3A0x72a463d91109ec67!2zQ-G6p24gVGjGoSwgVmlldG5hbQ!5e0!3m2!1sen!2sbd!4v1712213751233!5m2!1sen!2sbd"
-                height="470" style="border:0;" allowfullscreen=""></iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193570.81047059353!2d-74.11808637650337!3d40.70582544343095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250b920dd0217%3A0xc80b8c579285bfc4!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1712213751233!5m2!1sen!2sbd"
+                    height="470" style="border:0;" allowfullscreen="">
+                </iframe>
             </div>
+
         </div>
     </section>
     <!-- Contact Section End -->
@@ -232,9 +238,9 @@
                         <div class="ft-contact">
                             <h6>Contact Us</h6>
                             <ul>
-                                <li>0999 68 68 68</li>
-                                <li>searchbookinghotel@gmail.com</li>
-                                <li>999 Đại Lộ Hòa Bình - Cần Thơ - Việt Nam</li>
+                                <li>0123456789</li>
+                                <li>adelaide@gmail.com</li>
+                                <li>New York</li>
                             </ul>
                         </div>
                     </div>
@@ -263,9 +269,16 @@
                         </ul>
                     </div>
                     <div class="col-lg-5">
-                        <div class="co-text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                        <div class="co-text">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script> All rights reserved | This template is made with <i
+                                    class="fa fa-heart" aria-hidden="true"></i> by <a target="_blank">Adelaide</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

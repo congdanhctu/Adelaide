@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gia Linh SBH</title>
+    <title>Adelaide</title>
 
     <!-- Favicon -->
     <link rel="icon" href="{{ asset('faviconhoa.ico') }}" type="image/x-icon">
@@ -34,7 +34,7 @@
     </div>
 
     <!-- Offcanvas Menu Section Begin -->
-    {{-- <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-overlay"></div>
     <div class="canvas-open">
         <i class="icon_menu"></i>
     </div>
@@ -83,10 +83,10 @@
             <a href="#"><i class="fa fa-instagram"></i></a>
         </div>
         <ul class="top-widget">
-            <li><i class="fa fa-phone"></i> 0943334824 </li>
-            <li><i class="fa fa-envelope"></i> ngglinh02@gmail.com </li>
+            <li><i class="fa fa-phone"></i> 0123456789 </li>
+            <li><i class="fa fa-envelope"></i> adelaide@gmail.com </li>
         </ul>
-    </div> --}}
+    </div>
     <!-- Offcanvas Menu Section End -->
 
     <!-- Header Section Begin -->
@@ -96,8 +96,8 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <ul class="tn-left">
-                            <li><i class="fa fa-phone"></i> 0943334824 </li>
-                            <li><i class="fa fa-envelope"></i> ngglinh02@gmail.com </li>
+                            <li><i class="fa fa-phone"></i> 0123456789 </li>
+                            <li><i class="fa fa-envelope"></i> adelaide@gmail.com </li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
@@ -129,18 +129,23 @@
                 <div class="row">
                     <div class="col-lg-2" style="margin-top: 20px;">
                         <a href="/" style="font-family:monospace;">
-                            <h4 class="text-black mb-3" style="font-size: 40px;">Gia Linh</h4>
+                            <h4 class="text-black mb-3" style="font-size: 40px;">Adelaide</h4>
                         </a>
                     </div>
-                    
+
                     <div class="col-lg-10">
                         <div class="nav-menu">
-                            <nav class="mainmenu">  
-                                    <li class="nav-item nav-link {{ Request::is('/') ? 'active' : '' }}"><a href="/">Home</a></li>
-                                    <li class="nav-item nav-link {{ Request::is('/hotel') ? 'active' : '' }}"><a href="/hotel">Hotel</a></li>
-                                    <li class="nav-item nav-link {{ Request::is('/review') ? 'active' : '' }}"><a href="/review">Review</a>
-                                    <li class="nav-item nav-link {{ Request::is('/service') ? 'active' : '' }}"><a href="/service">Service</a>
-                                    <li class="nav-item nav-link {{ Request::is('/contact') ? 'active' : '' }}"><a href="/contact">Contact</a></li>
+                            <nav class="mainmenu">
+                                <li class="nav-item nav-link {{ Request::is('/') ? 'active' : '' }}"><a
+                                        href="/">Home</a></li>
+                                <li class="nav-item nav-link {{ Request::is('/hotel') ? 'active' : '' }}"><a
+                                        href="/hotel">Hotel</a></li>
+                                {{-- <li class="nav-item nav-link {{ Request::is('/review') ? 'active' : '' }}"><a
+                                        href="/review">Review</a> --}}
+                                <li class="nav-item nav-link {{ Request::is('/service') ? 'active' : '' }}"><a
+                                        href="/service">Service</a>
+                                <li class="nav-item nav-link {{ Request::is('/contact') ? 'active' : '' }}"><a
+                                        href="/contact">Contact</a></li>
                             </nav>
                             <div class="nav-right search-switch">
                                 <i class="icon_search"></i>
@@ -159,13 +164,13 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="hero-text">
-                        <h1>Gia Linh search booking hotel</h1>
+                        <h1>Adelaide search booking hotel</h1>
                         <p>Find Your Perfect Stay with Ease - Book Hotels Hassle-Free!</p>
                         <a href="#" class="primary-btn">Discover Now</a>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
-                    
+
                 </div>
             </div>
         </div>
@@ -185,11 +190,13 @@
                     <div class="about-text">
                         <div class="section-title">
                             <span>Welcome to </span>
-                            <h2>Gia Linh <br />Search Booking Hotel</h2>
+                            <h2>Adelaide<br />Search Booking Hotel</h2>
                         </div>
-                        
+
                         <p class="f-para">Welcome to our hotel search and booking page!</p>
-                        <p class="s-para">Searching and booking hotels has never been easier. With a convenient booking system and extensive hotel database, we will help you find the ideal destination for all your trips. Explore and experience with us today!</p>
+                        <p class="s-para">Searching and booking hotels has never been easier. With a convenient booking
+                            system and extensive hotel database, we will help you find the ideal destination for all
+                            your trips. Explore and experience with us today!</p>
                         <a href="#" class="primary-btn about-btn">Read More</a>
                     </div>
                 </div>
@@ -197,10 +204,12 @@
                     <div class="about-pic">
                         <div class="row">
                             <div class="col-sm-6">
-                                <img src="{{ asset('assests/images/welcome/w1.jpg') }}" alt="" width="860" height="350">
+                                <img src="{{ asset('assests/images/welcome/w1.jpg') }}" alt=""
+                                    width="860" height="350">
                             </div>
                             <div class="col-sm-6">
-                                <img src="{{ asset('assests/images/welcome/w2.jpg') }}" alt="" width="860" height="350">
+                                <img src="{{ asset('assests/images/welcome/w2.jpg') }}" alt=""
+                                    width="860" height="350">
                             </div>
                         </div>
                     </div>
@@ -226,14 +235,16 @@
                     <div class="service-item">
                         <i class="flaticon-036-parking"></i>
                         <h4>Loyalty programn</h4>
-                        <p>To thank customers who regularly use our services, we launch a Loyalty program with many attractive incentives</p>
+                        <p>To thank customers who regularly use our services, we launch a Loyalty program with many
+                            attractive incentives</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item">
                         <i class="flaticon-033-dinner"></i>
                         <h4>Accumulate points</h4>
-                        <p>Earn points every time you make a reservation, redeem attractive gifts! The higher the level, the greater the benefit!</p>
+                        <p>Earn points every time you make a reservation, redeem attractive gifts! The higher the level,
+                            the greater the benefit!</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
@@ -247,7 +258,8 @@
                     <div class="service-item">
                         <i class="flaticon-024-towel"></i>
                         <h4>Laundry</h4>
-                        <p>Sophisticated from clean to fragrant - Our laundry service brings comfort and convenience to all your trips!</p>
+                        <p>Sophisticated from clean to fragrant - Our laundry service brings comfort and convenience to
+                            all your trips!</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
@@ -261,7 +273,8 @@
                     <div class="service-item">
                         <i class="flaticon-012-cocktail"></i>
                         <h4>Bar & Drink</h4>
-                        <p>"Bringing true joy, a glass of exquisite drink at our bar is the ideal stop on every journey!"</p>
+                        <p>"Bringing true joy, a glass of exquisite drink at our bar is the ideal stop on every
+                            journey!"</p>
                     </div>
                 </div>
             </div>
@@ -411,7 +424,7 @@
                 <div class="col-lg-8 offset-lg-2">
                     <div class="testimonial-slider owl-carousel">
                         <div class="ts-item">
-                            <p>Khách sạn view đẹp, rộng rãi, nhân viên nhiệt tình..</p>
+                            <p>Hotel with beautiful view, spacious, enthusiastic staff</p>
                             <div class="ti-author">
                                 <div class="rating">
                                     <i class="icon_star"></i>
@@ -419,13 +432,15 @@
                                     <i class="icon_star"></i>
                                     <i class="icon_star"></i>
                                 </div>
-                                <h5> - Chloe ( Hà Nội - Việt Nam) </h5>
+                                <h5> - Chloe ( Korea) </h5>
                             </div>
-                            <img src="{{ asset('assests/images/review/review8.jpg') }}" alt="" width="400" height="400">
+                            <img src="{{ asset('assests/images/review/review8.jpg') }}" alt=""
+                                width="400" height="400">
                         </div>
 
                         <div class="ts-item">
-                            <p>một kì nghỉ tuyệt vời cùng gia đình. </p>
+                            <p>
+                                a wonderful vacation with family. </p>
                             <div class="ti-author">
                                 <div class="rating">
                                     <i class="icon_star"></i>
@@ -434,11 +449,12 @@
                                     <i class="icon_star"></i>
                                     <i class="icon_star-half_alt"></i>
                                 </div>
-                                <h5> - Khánh Linh (Đà Nẵng - Việt Nam) </h5>
+                                <h5> - Joy (NYC) </h5>
                             </div>
-                            <img src="{{ asset('assests/images/review/review5.jpg') }}" alt="" width="400" height="400">
+                            <img src="{{ asset('assests/images/review/review5.jpg') }}" alt=""
+                                width="400" height="400">
                         </div>
-                        
+
                         <div class="ts-item">
                             <p>Great vacation, my family was very satisfied.</p>
                             <div class="ti-author">
@@ -451,12 +467,14 @@
                                 </div>
                                 <h5> - Emma (Singapore)</h5>
                             </div>
-                            <img src="{{ asset('assests/images/review/review4.jpg') }}" alt="" width="400" height="400">
+                            <img src="{{ asset('assests/images/review/review4.jpg') }}" alt=""
+                                width="400" height="400">
                         </div>
 
 
                         <div class="ts-item">
-                            <p>Phòng ốc sạch sẽ và thoải mái, nhân viên thân thiện và nhiệt tình.</p>
+                            <p>
+                                Rooms are clean and comfortable, staff are friendly and enthusiastic.</p>
                             <div class="ti-author">
                                 <div class="rating">
                                     <i class="icon_star"></i>
@@ -465,13 +483,15 @@
                                     <i class="icon_star"></i>
                                     <i class="icon_star-half_alt"></i>
                                 </div>
-                                <h5> - Tuệ Mẫn (Bình Phước - Việt Nam)</h5>
+                                <h5> - Leona (Ameriaca)</h5>
                             </div>
-                            <img src="{{ asset('assests/images/review/review3.jpg') }}" alt="" width="400" height="400">
+                            <img src="{{ asset('assests/images/review/review3.jpg') }}" alt=""
+                                width="400" height="400">
                         </div>
 
                         <div class="ts-item">
-                            <p>Beautiful room, great view and professional service. I am very satisfied and will recommend to my friends and family.</p>
+                            <p>Beautiful room, great view and professional service. I am very satisfied and will
+                                recommend to my friends and family.</p>
                             <div class="ti-author">
                                 <div class="rating">
                                     <i class="icon_star"></i>
@@ -482,7 +502,8 @@
                                 </div>
                                 <h5> - Harry Potter (Hogwarts)</h5>
                             </div>
-                            <img src="{{ asset('assests/images/review/review1.jpg') }}" alt="" width="400" height="400">
+                            <img src="{{ asset('assests/images/review/review1.jpg') }}" alt=""
+                                width="400" height="400">
                         </div>
                     </div>
                 </div>
@@ -491,7 +512,7 @@
     </section>
     <!-- Testimonial Section End -->
 
-   
+
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">
@@ -500,15 +521,16 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="ft-about">
-                            <div class="col-lg-2" style="margin-top: 20px;">
-                                <a href="/" style="font-family:monospace;">
-                                    <h4 class="text-white mb-3" style="font-size: 50px;">Gia Linh</h4>
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="img/footer-logo.png" alt="">
                                 </a>
                             </div>
                             <p>We inspire and reach millions of travelers<br /> across 90 local hotels</p>
                             <div class="fa-social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-tripadvisor"></i></a>
                                 <a href="#"><i class="fa fa-instagram"></i></a>
                                 <a href="#"><i class="fa fa-youtube-play"></i></a>
                             </div>
@@ -518,9 +540,9 @@
                         <div class="ft-contact">
                             <h6>Contact Us</h6>
                             <ul>
-                                <li>0999 68 68 68</li>
-                                <li>searchbookinghotel@gmail.com</li>
-                                <li>999 Đại Lộ Hòa Bình - Cần Thơ - Việt Nam</li>
+                                <li>0123456789</li>
+                                <li>adelaide@gmail.com</li>
+                                <li>New York</li>
                             </ul>
                         </div>
                     </div>
@@ -554,8 +576,8 @@
                                 Copyright &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> All rights reserved<i
-                                    class="fa fa-heart" aria-hidden="true"></i></a>
+                                </script> All rights reserved | This template is made with <i
+                                    class="fa fa-heart" aria-hidden="true"></i> by <a target="_blank">Adelaide</a>
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             </p>
                         </div>
@@ -565,6 +587,7 @@
         </div>
     </footer>
     <!-- Footer Section End -->
+
 
     <!-- Search model Begin -->
     <div class="search-model">
