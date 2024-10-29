@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="{{ asset('assests/css/magnific-popup.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('assests/css/slicknav.min.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('assests/css/style.css') }}" type="text/css">
+
 </head>
 
 <body>
@@ -108,7 +109,26 @@
                                 <a href="#"><i class="fa fa-tripadvisor"></i></a>
                                 <a href="#"><i class="fa fa-instagram"></i></a>
                             </div>
-                            <a href="/login" class="bk-btn">Login Now</a>
+                            @if (Session::has('username'))
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="userMenu"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Hello, {{ Session::get('username') }}
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="userMenu">
+                                        <a class="dropdown-item" href="#"
+                                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                            style="display: none;">
+                                            @csrf
+                                        </form>
+                                    </div>
+                                </div>
+                            @else
+                                <a href="/login" class="bk-btn">Login Now</a>
+                            @endif
+
+
                             <div class="language-option">
                                 <img src="{{ asset('assests/images/flag.jpg') }}" alt="">
                                 <span>EN <i class="fa fa-angle-down"></i></span>
@@ -609,6 +629,10 @@
     <script src="{{ asset('assests/js/jquery.slicknav.js') }}"></script>
     <script src="{{ asset('assests/js/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('assests/js/main.js') }}"></script>
+    <!-- jQuery và Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
